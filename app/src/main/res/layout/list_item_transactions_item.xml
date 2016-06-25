@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/holo_gap"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/listItemBackground">
+    <TextView
+        android:paddingTop="@dimen/holo_gap"
+        android:paddingBottom="@dimen/holo_gap"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:maxLines="2"
+        tools:text = "Kaching TFR\nsavings"/>
+
+    <TextView
+        android:paddingTop="@dimen/holo_gap"
+        android:paddingBottom="@dimen/holo_gap"
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:singleLine="true"
+        tools:text = "$400"
+        android:textStyle="bold"
+        />
+</LinearLayout>

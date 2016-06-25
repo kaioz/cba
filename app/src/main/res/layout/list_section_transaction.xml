@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/listSectionBackground"
+    android:padding="@dimen/holo_gap">
+
+    <TextView
+        style="@style/section_header"
+        android:id="@+id/section_title"
+        tools:text="@string/account_balance"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/section_ago"
+        android:layout_weight="0"
+        tools:text="$400"
+        style="@style/section_header" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cocosw.commonbank">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+    <application
+        android:supportsRtl="false"
+        android:allowBackup="true" android:label="@string/app_name"
+        android:name=".app.CommonBankApplication"
+        android:icon="@drawable/icon_welcome_logo" android:theme="@style/AppTheme"
+        tools:ignore="UnusedAttribute">
+
+        <meta-data android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/map_api_key"/>
+
+        <activity android:name=".Main" android:label="@string/account_details">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cocosw.framework.core.SinglePaneActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="listItemBackground">#FFF6F6F6</color>
+    <color name="account_header_background">#ff649898</color>
+    <color name="greyText">#ff8a8a8a</color>
+    <color name="listSectionBackground">#ffFFCC00</color>
+</resources>

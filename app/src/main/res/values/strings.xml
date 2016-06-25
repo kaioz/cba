@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CommonBank Test</string>
+    <string name="account_details">Account details</string>
+    <string name="find_us">Find us</string>
+    <string name="available_funds">Available funds</string>
+    <string name="account_balance">Account balance</string>
+    <string name="pending">Pending:</string>
+</resources>
